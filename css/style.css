@@ -1,0 +1,82 @@
+/* font link part start */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Actor&family=Adamina&family=Be+Vietnam+Pro:wght@600&family=Bebas+Neue&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@1,600&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab:wght@200&family=Roboto:wght@400;500&family=Satisfy&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font link part end */
+/* Common Css part start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+}
+img{
+    width:100%;
+    max-width:100%;
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin:0;
+
+}
+:root{
+    --ubuntu:"Ubuntu", sans-serif;
+    --brand_color:#42454A;
+}
+.main_menu{
+padding: 26px 0;
+}
+.main_menu .logo img{
+    width:70px;
+    
+}
+.main_menu ul{
+    gap:75px;
+}
+.main_menu ul li a{
+    font-size:14px;
+    font-weight:400;
+    font-family:var(--ubuntu);
+    color:var(--brand_color) !important;
+    transition: all linear .4s;
+}
+
+.main_menu ul li:hover a{
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.main_menu .menu_buttons{
+    display:flex;
+    gap:24px;
+}
+.main_menu .menu_buttons a{
+    border-radius: 4px;
+    background: var(--brand_color);
+padding:16px 26px;
+font-size:14px;
+font-weight:400;
+font-family: var(--ubuntu);
+color:#fff;
+transition: all linear .7s;
+}
+
+.main_menu .menu_buttons a:hover{
+    background: #fff;
+    color:var(--brand_color);
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+/* Common Css part end */
+/* font link part start */
+
+/* font link part end */
+/* font link part start */
+
+/* font link part end */
+/* font link part start */
+
+/* font link part end */
