@@ -28,6 +28,8 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
     --ubuntu:"Ubuntu", sans-serif;
     --brand_color:#42454A;
 }
+/* Common Css part end */
+/* Navbar part start */
 .main_menu{
 padding: 26px 0;
 }
@@ -69,14 +71,143 @@ transition: all linear .7s;
     color:var(--brand_color);
    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
+/* Navbar part end */
+/* Banner part start*/
+.banner_text{
+    margin-top:84px;
+}
+.banner_text h1{
+    width:586px;
+    font-size:90px;
+    font-weight:300;
+    font-family: var(--ubuntu);
+    color:var(--brand_color);
+    text-transform: uppercase;
+}
+.banner_text h1 span{
+    font-weight:700;
+    display:block;
+}
+.banner_line{
+    width:335px;
+    height:4px;
+    background:var(--brand_color);
+    display:inline-block;
+    margin-top:93px;
+}
+.banner_text p{
+    width:353px;
+    font-size:22px;
+    font-weight:400;
+    font-family:var(--ubuntu);
+    color:var(--brand_color);
+}
+/* From Uiverse.io by vinodjangid07 */ 
+.banner_buttons{
+    margin-top:62px;
+}
+.banner_buttons{
+    display:flex;
+    gap:80px;
+}
 
-/* Common Css part end */
-/* font link part start */
-
-/* font link part end */
-/* font link part start */
-
-/* font link part end */
-/* font link part start */
-
-/* font link part end */
+.bookmarkBtn {
+    width: 162px;
+    height: 58px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    background: transparent;
+    position:relative;
+  }
+  
+  .IconContainer {
+    width: 58px;
+    height: 58px;
+    background: var(--brand_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 0.3s;
+  }
+  .IconContainer svg{
+    width:20px;
+    height:26px;
+  }
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 32px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand_color);
+    z-index:1;
+    transition-duration: 0.3s;
+    font-size: 1.04em;
+    font-weight:500;
+  }
+  
+  .bookmarkBtn:hover .IconContainer {
+    width: 162px;
+    transition-duration: 0.3s;
+    justify-content: start;
+    padding-left:17px;
+  }
+  
+  .bookmarkBtn:hover .text {
+    position:absolute;
+    color:#fff;
+    z-index: 99;
+    right:10px;
+  }
+  
+  .bookmarkBtn:active {
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+  }
+  /* watch video part start */
+  .watch_video{
+    display:flex;
+    gap:21px;
+  }
+  .watch_video .watch_video_text h4{
+    width:87px;
+    height:75px;
+    color:#414449;
+    font-size:18px;
+    font-weight:500;
+    font-family: var(--ubuntu);
+  }
+  
+ .play_button img{
+    height:80px;
+    width:80px;
+    animation: rotate 7s linear infinite;
+ }
+ @keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to { transform: rotate(360deg); }
+ }
+  .banner_image img{
+    width:856px;
+    height:769px;
+    position: absolute;
+ top:100px;
+    right:0;
+    margin-top:31px;
+  }
+ 
+  /* watch video part end */
+  /* banner part end */
