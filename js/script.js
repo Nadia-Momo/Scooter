@@ -19,4 +19,9 @@ var typed =new Typed(".auto-type",{
 
   AOS.init();
 
+  $('.counter').counterUp({
+    delay: 100,
+    time: 1000
+});
+
   
