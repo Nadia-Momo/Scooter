@@ -5,7 +5,10 @@ var typed =new Typed(".auto-type",{
     backSpeed:150,
     loop:true
 });
-$('.multiple-items').slick({
+
+
+
+  $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -13,3 +16,7 @@ $('.multiple-items').slick({
     autoplay:true,
     autoplaySpeed:1000
   });
+
+  AOS.init();
+
+  
