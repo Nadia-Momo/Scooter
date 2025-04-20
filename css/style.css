@@ -8,7 +8,9 @@
     outline:0;
     box-sizing:border-box;
 }
-
+body{
+  overflow-x:hidden;
+}
 ul,ol{
     list-style:none;
 }
@@ -347,8 +349,252 @@ height:706px;
 margin-top:49px;
   }
   .high_frequency_image img{
-    width:1300px;
+    width:1335px;
     height:493px;
   }
-  
+  /* Multiple accessoriesss */
+  #multiple_accessoriesss{
+margin-top:315px;
+
+  }
+  .multiple_accs_text h2{
+    font-size:50px;
+font-weight:700;
+font-family: var(--ubuntu);
+color:var(--brand_color);
+text-align: center;
+  }
+  .multiple_accs_text p{
+    font-size:20px;
+    font-weight:400;
+    font-family: var(--ubuntu);
+    color:var(--brand_color);
+    text-align: center;
+    margin-top:34px; 
+  }
+  .Golf_bag_rock_list{
+    width:334px;
+    height:388px;
+  }
+  .golf_single_list{
+    display:flex;
+    align-items: center;
+    margin-bottom: 33px;
+  }
+  .golf_single_list img{
+    height:49px;
+    width:49px;
+  }
+  .golf_single_list p{
+    font-family: var(--ubuntu);
+    color:var(--brand_color);
+    font-size:20px;
+    font-weight:400;
+  }
+  .golf_bag_rock_text h2{
+font-weight:700;
+font-size:50px;
+font-family:var(--ubuntu);
+color:var(--brand_color);
+margin-bottom:33px;
+  }
+  .mulple_accsolrie_g_img img{
+    width:878px;
+    height:487px;
+    margin-top:112px;
+  }
+  .golf_bag_rock_text h2{
+    margin-top:160px;
+  }
+  .mulple_accsolrie_g_img_1{
+    margin-top:112px;
+  }
+  .mulple_accsolrie_g_img_1 img{
+    width:479px;
+    height:479px;
+  }
+  .mulple_accsolrie_g_img_2{
+    margin-top:112px;
+  }
+  .mulple_accsolrie_g_img_2 img{
+    width:493px;
+    height:438px;
+  }
   /* product information part end */
+  /*  Shopping_Rack part start*/
+  .shopping_rack_text h2{
+    font-size:50px;
+    font-weight:700;
+    color:var(--brand_color);
+    font-family:var(--ubuntu);
+    color:var(--brand_color);
+    margin-top:134px;
+    margin-bottom:44px;
+  }
+.shopping_rack_list img{
+  width:49px;
+  height:49px;
+}
+.shopping_rack_list p{
+  font-size:20px;
+  font-weight:400;
+  font-family: var(--ubuntu);
+  color:var(--brand_color);
+}
+.shopping_rack_list{
+  display:flex;
+  align-items: center;
+  gap:18px;
+  margin-bottom:
+}
+.shopping_rack_images{
+  margin-top:134px;
+}
+.shopping_rack_images img{
+  width:779px;
+  height:427px;
+}
+.shopping_rack{
+  margin-left:289px;
+}
+.more_accesorie_come_btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 52px;
+}
+.more_accesorie_come_btn a{
+color:var(--brand_color);
+font-size:30px;
+font-weight:700;
+font-family:var(--ubuntu);
+width:570px;
+  height:94px;
+  border:2px solid var(--brand_color);
+  border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.shopping_rack{
+  width:349px;
+  height:388px;
+}
+.shopping_rack_single{
+  display:flex;
+  gap:33px;
+  flex-direction:column ;
+}
+.battery_images_btn{
+  display:flex;
+  flex-direction:column;
+  gap:27px;
+}
+.battery_images_btn a{
+  width:570px;
+  height:94px;
+  border:1px solid var(--brand_color);
+  border-radius:10px;
+  color:var(--brand_color);
+  font-weight:700;
+  font-size:30px;
+  font-family: var(--ubuntu);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.scooter{
+  margin-top:302px;
+  margin-bottom:55px;
+}
+#gallary{
+  margin-top:127px;
+}
+.gallary_text h2{
+font-family: var(--ubuntu);
+color:var(--brand_color);
+font-size:50px;
+font-weight:700;
+text-align: center;
+}
+.gallary_text p{
+  margin-top:34px;
+  font-family:var(--ubuntu);
+color:var(--brand_color);
+text-align: center;
+font-size:20px;
+}
+.build_quality img{
+  width:633px;
+ 
+  
+}
+.build_quality{
+  margin-top:112px;
+  height: 495px;
+}
+
+.parts img{
+  width:633px;
+  height:485px;
+}
+.parts {
+margin-top:-139px;
+}
+.subscribe_text h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+  text-align:center;
+}
+.subscribe_text p{
+  font-size:20px;
+  font-weight:400;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+  text-align:center;
+  margin-top: 11px;
+}
+.form{
+  display:flex;
+  gap:20px;
+}
+.form input{
+  width:400px;
+  height:81px;
+  border-radius: 10px;
+  border:0;
+  background: #FAFAFA;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-left:38px;
+}
+input::placeholder{
+  color:var(--brand_color);
+  font-size:20px;
+  font-family:var(--ubuntu);
+  font-weight:400;
+ 
+}
+.form{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:59px;
+}
+.form button{
+  width:196px;
+  height:81px;
+  background: var(--brand_color);
+  color:#FBFBFB;
+  border-radius:10px;
+  border:0;
+  font-size:20px;
+  font-family: var(--ubuntu);
+  font-weight:400;
+}
+footer{
+  background: var(--brand_color);
+  color:#FBFBFB;
+  margin-top:127px;
+}
