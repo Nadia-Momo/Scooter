@@ -239,7 +239,6 @@ margin-top:-700px;
   #counter{
     margin-top:80px;
   }
-  
   .counter_single_box{
     width:174px;
     height:137px;
@@ -528,14 +527,15 @@ font-size:20px;
 }
 .build_quality img{
   width:633px;
- 
-  
 }
 .build_quality{
   margin-top:112px;
   height: 495px;
 }
-
+.slidernavitem img{
+  width:245px;
+  height:264px;
+}
 .parts img{
   width:633px;
   height:485px;
@@ -606,6 +606,7 @@ footer{
 }
 .footer_list{
 margin-top:102px;
+margin-left: 899px;
 }
 .footer_list h4{
   margin-bottom:53px;
@@ -629,6 +630,24 @@ margin-top:102px;
   width:32px;
   height:32px;
 }
+#colours{
+margin-top:128px;
+}
+.commonhead h2{
+  font-size:50px;
+  font-weight:700;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+  text-align: center;
+}
+.commonhead p{
+  font-size:20px;
+  font-weight:400;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+  text-align:center;
+  margin-top:19px;
+}
 .footer_list{
   display:flex;
   justify-content:center;
@@ -649,5 +668,159 @@ footer p{
   margin-top:118px;
   text-align: center;
   font-size:16px;
+}
+.main_slider_div{
+  position:relative;
+}
+.slider_nav_position{
+  position:absolute;
+ bottom:-100px;
+ width:100%;
+}
+.main_show {
+  width:100%;
+  margin-top:104px;
+}
+.footer_list_image{
+  margin-left:400px;
+}
+#testimonials{
+  margin-top:366px;
+  padding-top:78px;
+  background: #FAFAFA;
+  padding-left:144px;
+  padding-right:144px;
+  padding-bottom:167px;
+}
+.testimonial_text h2{
+  color:var(--brand_color);
+  font-family:var(--ubuntu);
+  font-size:50px;
+  font-weight:700;
+  text-align:center;
  
+}
+.myslider_item{
+  width:360px;
+  height:366px;
+  padding:52px 22px 51px 34px;
+ border:1px solid #D8D8D8;
+}
+.reactin_icon{
+  margin-left:-42px;
+}
+
+.reactin_icon li img{
+  width:17px;
+  height:16px;
+}
+.reactin_icon{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:11px;
+}
+.react_para{
+  width:304px;
+  height:140px;
+  text-align: center;
+}
+.review_maker .person_img img{
+  width:48px;
+  height:48px;
+}
+.review_maker{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+.react_para p{
+  font-weight:400;
+  font-size:20px;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+}
+.react_para{
+  margin-bottom:47px;
+}
+.review_maker .person_na_desi h4{
+  font-size:16px;
+  font-weight:500;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+}
+.review_maker .person_na_desi p{
+  font-size:14px;
+  font-weight:400;
+  font-family:var(--ubuntu);
+  color:var(--brand_color);
+}
+.my_slider{
+  position:relative;
+}
+.arrows{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background:var(--brand_color);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff; 
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(-50%,-50%);
+}
+.prr{
+top:450px;
+left:630px;
+}
+.nrr{
+  top:450px;
+  left:700px; 
+}
+.testimonial_text h2{
+  margin-bottom:41px;
+}
+.arrows:hover{
+  background:#fff;
+  color:var(--brand_color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.myslider_item:hover{
+ 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* button hover */
+/* .btn:hover {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
+} */
+.more_accesorie_come_btn{
+  transition:all linear .4s;
+}
+.more_accesorie_come_btn:hover a{
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
+}
+.battery_images_btn{
+  transition:all linear .4s;
+}
+.battery_images_btn a:hover{
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
 }
