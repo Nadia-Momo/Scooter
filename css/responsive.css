@@ -1,0 +1,68 @@
+
+  @media (max-width: 575.98px) { 
+    /* nav bar part start */
+    .main_menu .logo img {
+        width: 57px;
+      }
+      .menu_burger img{
+        width:28px;
+      }
+      .main_menu ul {
+        gap:
+      36px;
+      align-items: center;
+      }
+      .product{
+        margin-top: 14px;
+      }
+      .main_menu .menu_buttons{
+        margin-top: 20px;
+        justify-content: center;
+      }
+      /*--- navbar part end ----*/
+      /* ---Banner part start ---*/
+      .banner_image{
+        display:none;
+      }
+      .banner_text {
+        margin-top: 13px;
+      }
+      .banner_text h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+        .banner_line {
+            width: 100%;}
+            
+            .banner_text p {
+                width: 100%;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .banner_buttons{
+                flex-direction: column;
+                margin-top: 51px;
+                align-items: center;
+                gap: 43px;
+            }
+                    
+                        .watch_video{
+                            width: 100%;
+                            gap: 8px;
+                            align-items: center;
+  justify-content: center;
+                        }
+                        .watch_video .watch_video_text h4{
+                            font-size: 17px;
+                        }
+                        .play_button img {
+                    width: 100%;
+                height: 100%;
+            }
+           
+            .banner_line{
+                margin-top: 73px;
+            }             
+      /*--- Banner part end ----*/
+  }
