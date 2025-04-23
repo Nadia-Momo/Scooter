@@ -82,18 +82,10 @@ $('.my_slider').slick({
     nextArrow:'<i class="fa-solid arrows nrr fa-arrow-right"></i>',
     responsive: [
       {
-        breakpoint: 1100,
+        breakpoint: 992,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-          
-        }
-      },
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 2,
+          slidesToScroll: 2
           
         }
       },
@@ -119,5 +111,5 @@ $('.my_slider').slick({
 });
 AOS.init({
   once: true,
-  disable: () => window.innerWidth < 768
+  disable: () => window.innerWidth < 992
 });

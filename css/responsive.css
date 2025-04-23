@@ -386,7 +386,7 @@ align-items: center;
           width: 100%;
           height: 100%;
         }
-        multiple_accs_text h2 {
+        .multiple_accs_text h2 {
           font-size: 43px;}
           #multiple_accesories {
             margin-top: 94px;
@@ -517,4 +517,161 @@ align-items: center;
                                               margin-left: -20px;
                                             }
                                 }
-                                  
+                                /* medium device responsive */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .menu_burger img{
+      width: 25px;
+     }
+     .main_menu ul {
+      gap:
+    36px;
+    align-items: center;
+    }
+    .main_menu .menu_buttons{
+      margin-top: 20px;
+      justify-content: center;
+    }                           
+    .banner_image{
+      display:none;
+    }
+    .top_image  {
+      display:block;
+     
+    } 
+    .top_bg{
+      position:absolute;
+      width: 100%;
+      top: 82px;
+      z-index:-1;
+     right:0;
+     margin-top: 1px;
+    }
+    .banner_text h1 {
+      font-size: 76px;
+      text-align: center;
+    }
+    .banner_line {
+      width: 100%;}
+      .banner_text p {
+        width: 100%;
+      text-align:center;
+      }
+      .banner_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .counter-box {
+        flex-wrap: wrap;
+        gap:
+      20px;
+      }
+      .product_info_image img {
+        position: static;
+        width: 100%;
+        height: 100%;
+      }
+      .product_info_text h2 {
+        font-size: 47px;}
+        .product-quick_container {
+          margin-top: -2px;
+          width: 100%;
+          margin-left: 2px;
+        }
+        .high_frequency_text_con h2 {
+          font-size: 47px;}
+          .high_frequency_image img {
+            width: 100%;
+            height: 100%;
+          }
+          .multiple_accs_text h2 {
+            font-size: 47px;}
+            .golf_bag_rock_text h2 {
+              font-size: 43px;
+              margin-top: 48px;
+  }
+  #multiple_accesories {
+    margin-top: 51px;
+  }
+  .mulple_accsolrie_g_img_1 {
+    margin-top: 1px;
+    width: 100%;
+  height: 100%;
+  }   
+  .mulple_accsolrie_g_img_2 {
+    margin-top: 9px;
+  }
+  .mulple_accsolrie_g_img_2 img {
+    width: 100%;}
+    .shopping_rack_images img {
+      width: 100%;}
+      .shopping_rack_images {
+        margin-top: -17px;
+      }
+      .shopping_rack_text h2 {
+        font-size: 43px;}
+        .shopping_rack {
+          margin-left: 1px;
+          margin-top: -88px;
+        }   
+        .more_accesorie_come_btn a {
+          font-size: 25px;}   
+          .gallary_text h2 {
+            font-size: 47px;
+          }   
+          #gallary {
+            margin-top: 65px;
+          }  
+          .scooter {
+            margin-top: 33px;
+          
+          }
+            .build_quality {
+              margin-top: -19px;}   
+              .build_quality img {
+                width: 100%;
+              }     
+              .parts img {
+                width: 100%;
+              }    
+              .parts {
+                margin-top: 24px;
+              }
+              .battery_images_btn {
+                margin-top: 83px;
+                align-items: center;
+              }   
+              .slidernavitem img {
+                height: 171px;
+              } 
+              #testimonials {
+                margin-top: 128px;}
+                .react_para {
+                  width: 100%;
+                  height: 100%;
+                }
+                .myslider_item {
+                  width: 98%;
+                  padding: 20px 12px 20px 12px; 
+                }
+                .prr {
+                  top: 80px;
+    left: -36px;
+                }
+                .nrr {
+                  top: 274px;
+    left: -34px;;
+                }
+                .subscribe_text h2 {
+                  font-size: 43px;}
+                  #subscribe {
+                    margin-top: 0px;
+                  }
+                  .footer_image img {
+                    width: 100%;
+                    position: static;}
+                    .footer_list {
+                      margin-top: 37px;
+                      margin-left: -1px;
+                    }
+  }
