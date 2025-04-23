@@ -85,7 +85,7 @@ $('.my_slider').slick({
         breakpoint: 1100,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToScroll: 1
           
         }
       },
@@ -93,7 +93,7 @@ $('.my_slider').slick({
         breakpoint: 991,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToScroll: 1
           
         }
       },
