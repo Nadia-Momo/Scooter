@@ -675,6 +675,7 @@ align-items: center;
                       margin-left: -1px;
                     }
   }
+  /* large device responsive done */
   @media (min-width:992px) and (max-width:1199.98px){
     .banner_text h1 {
       font-size: 84px;}
@@ -814,6 +815,7 @@ align-items: center;
           left: -42px;
         }
   }
+  /* single device responsive */
   @media (min-width:1422px){
     .footer_image img {
       width: 600px;
@@ -822,6 +824,7 @@ align-items: center;
       top: -98px;
     }
   }
+  /* single device responsive */
   @media (min-width:1408px){
     .footer_image img {
       width: 600px;
@@ -838,6 +841,7 @@ align-items: center;
       left: 601px;
     }
   }
+  /* single device responsive */
   @media (min-width:1600px){
   .footer_image img {
     width: 600px;
