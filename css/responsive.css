@@ -675,3 +675,100 @@ align-items: center;
                       margin-left: -1px;
                     }
   }
+  @media (min-width:992px) and (max-width:1199.98px){
+    .banner_text h1 {
+      font-size: 84px;}
+      .counter_single_box h2 span {
+        font-size: 36px;
+      }
+      .product_info_text h2{
+        font-size: 48px;
+      }
+      .product-quick_container {
+        margin-left: 473px;
+      }
+      .product_info_image img {
+        
+        left: -28px;
+        width: 100%;
+        height: 706px;
+      }
+      .high_frequency_text_con h2 {
+        font-size: 48px;}
+        .high_frequency_image img {
+          width: 100%;
+          height: 100%;
+        }
+          .multiple_accs_text h2 {
+            font-size: 48px;}
+            .golf_bag_rock_text h2 {
+              
+              font-size: 44px;}
+              .mulple_accsolrie_g_img_1 img {
+                width: 100%;}
+                .shopping_rack_images img {
+                  width: 100%;
+                  height: 100%;
+                }
+                .shopping_rack_text h2 {
+                  font-size: 44px;}
+                  .shopping_rack {
+                    width: 100%;
+                    height: 100%;
+                  }
+                  .shopping_rack {
+                    margin-left: 35px;
+                  }
+                  .more_accesorie_come_btn a {
+                    color: var(--brand_color);
+                    font-size: 28px;}
+                    .shopping_rack {
+                      margin-left: 90px;
+                    }
+                    .gallary_text h2 {
+                      font-size: 44px;
+                    }
+                    .battery_images_btn a {
+                      width: 100%;}
+                      .commonhead h2 {
+                        font-size: 44px;}
+                        .slidernavitem img {
+                          width: 100%;
+                          height: 206px;
+                        }
+                        .testimonial_text h2{
+                          font-size: 44px;
+                        }
+                        .myslider_item {
+                          width: 98%;
+    padding:
+25px 11px 11px 12px;
+                        }
+                          .react_para {
+                            width: 100%;
+                            height: 100%;}
+                            .review_maker .person_na_desi h4 {
+                              font-size: 14px;}
+                              .prr {
+                                top: 440px;
+                                left: 300px;
+                              
+                              }
+                              .nrr {
+                                top: 440px;
+                                left: 386px;
+                              }
+                              .subscribe_text h2 {
+                                font-size: 44px;}
+                                .footer_image img {
+                                  width: 100%;
+                                  position: absolute;
+                                  left: -28px;
+                                  top: -60px;
+                                }
+                               
+                                .footer_list {
+                                  margin-top: 114px;
+                                  margin-left: -55px;
+                                }
+  }

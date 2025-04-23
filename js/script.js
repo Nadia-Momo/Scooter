@@ -82,6 +82,14 @@ $('.my_slider').slick({
     nextArrow:'<i class="fa-solid arrows nrr fa-arrow-right"></i>',
     responsive: [
       {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+          
+        }
+      },
+      {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
@@ -90,7 +98,7 @@ $('.my_slider').slick({
         }
       },
       {
-        breakpoint: 767,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -98,7 +106,7 @@ $('.my_slider').slick({
       },
       
       {
-        breakpoint: 575,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
