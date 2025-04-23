@@ -838,4 +838,20 @@ align-items: center;
       left: 601px;
     }
   }
+  @media (min-width:1600px){
+  .footer_image img {
+    width: 600px;
+    position: absolute;
+    left: -152px;
+    top: -98px;
+  }
+  .nrr {
+    top: 450px;
+    left: 687px;
+  }
+  .prr {
+    top: 450px;
+    left: 560px;
+  }
+}
   
