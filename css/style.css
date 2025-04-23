@@ -295,7 +295,7 @@ margin-top:-700px;
   }
   .product_q_text img{
     width:49px;
-    height:49px;
+   height:49px;
   }
   .product_q_text{
     display:flex;
@@ -607,10 +607,10 @@ footer{
 }
 .footer_list{
 margin-top:102px;
-margin-left: 899px;
+margin-left: 199px;
 }
 .footer_list h4{
-  margin-bottom:53px;
+  margin-bottom:47px;
   text-align: center;
   font-size:22px;
   font-weight: 700;
@@ -703,7 +703,6 @@ footer p{
 }
 .myslider_item{
   width:360px;
-  height:366px;
   padding:52px 22px 51px 34px;
  border:1px solid #D8D8D8;
 }
@@ -824,4 +823,15 @@ left:630px;
   border-right: 2px solid rgb(238, 103, 238);
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px;
+}
+/* to image slick slider */
+.top_image{
+  display:none;
+}
+/*  */
+.counter-box{
+  display:flex;
+justify-content:center;
+align-items:center;
+  
 }

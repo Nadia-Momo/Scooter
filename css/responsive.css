@@ -1,11 +1,14 @@
 
   @media (max-width: 575.98px) { 
     /* nav bar part start */
+    body{
+      overflow-x:hidden;
+    }
     .main_menu .logo img {
-        width: 57px;
+        width: 53px;
       }
       .menu_burger img{
-        width:28px;
+        width:20px;
       }
       .main_menu ul {
         gap:
@@ -31,8 +34,7 @@
         font-size: 44px;
         text-align: center;
     }
-        .banner_line {
-            width: 100%;}
+        
             
             .banner_text p {
                 width: 100%;
@@ -62,7 +64,242 @@
             }
            
             .banner_line{
-                margin-top: 73px;
-            }             
+                margin-top: 143px;
+                width: 100%;
+            }  
+            .top_image  {
+              display:block;
+             
+            }    
+            .top_bg{
+              position:absolute;
+              width: 100%;
+              top: 82px;
+              z-index:-1;
+             right:0;
+             margin-top: 1px;
+            }  
+           
+           .product_info_text h2{
+            font-size: 30px;
+           }   
+           .product_info_text p{
+            font-size: 15px;
+            margin-top: 21px;
+           }  
+           .product_container{
+            flex-direction:column;
+           }
+           .product_info_image img{
+            width:100%;
+            position: static;
+            height: 100%;
+           }
+           .product-quick_container {
+            margin-top: 2px;
+            width: 100%;
+            height: 100%;
+            margin-left: 6px;
+          }
+          .product_q_text p{
+            font-size: 15px;
+          }
+          .product_q_text{
+            gap: 17px;
+          }
+          .product_q_text img {
+            width: 40px;
+            height: 40px;}
       /*--- Banner part end ----*/
+      /* counter part start */
+      .counter_single_box h2 span {
+        font-size: 30px;
+      }
+      .counter-box{
+          
+        flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+align-items:center;
+       }
+       /* counter part end */
+       /* high frequency part start */
+       .high_frequency_text_con h2 {
+        font-size: 30px;
   }
+  #high_efficieny {
+    margin-top: 56px;
+  }
+  .high_frequency_text_con p {
+    font-size: 15px;}
+    .high_frequency_image img {
+      width: 100%;
+      height: 100%;
+    }
+    .multiple_accs_text h2 {
+      font-size: 29px;}
+      .multiple_accs_text p {
+        font-size: 15px;}
+        #multiple_accesories {
+          margin-top: 80px;
+        }
+        .golf_bag_rock_text h2 {
+          margin-top: 61px;
+        }
+        .golf_bag_rock_text h2{
+          font-size: 27px;
+        }
+        .golf_single_list img {
+          height: 40px;
+          width: 40px;
+        }
+        .golf_single_list p {
+          font-size: 15px;}
+          .mulple_accsolrie_g_img_1 img {
+            width: 100%;
+            height: 100%;
+          }
+          .mulple_accsolrie_g_img_1 {
+            margin-top: -84px;
+          }
+          .mulple_accsolrie_g_img_2 img {
+            width: 100%;
+            height: 100%;
+          }
+          .mulple_accsolrie_g_img_2 {
+            margin-top: 21px;
+          }
+          .shopping_rack_images img {
+            width: 100%;
+            height: 100%;
+          }
+          .shopping_rack_images {
+            margin-top: 47px;
+          }
+          .shopping_rack {
+            margin-left: 5px;
+          }
+          .shopping_rack_text h2 {
+            font-size: 30px;
+            margin-top: 47px;
+          }
+          .shopping_rack_list p {
+            font-size: 15px;}
+            .shopping_rack_list img {
+              width: 40px;
+              height: 40px;
+            }
+            .more_accesorie_come_btn a {
+              font-size: 19px;
+              width: 100%;
+            }
+            .more_accesorie_come_btn {
+              margin-top: 5px;}
+            #gallary {
+              margin-top: 49px;
+            }
+            .gallary_text h2 {
+              font-size: 30px;}
+              .gallary_text p {
+                font-size: 15px;
+              }
+              .scooter {
+                margin-top: 55px;
+                margin-bottom: -82px;
+              }
+              .battery_images_btn a {
+                width: 100%;
+                font-size: 19px;
+              }
+              .parts img {
+                width: 100%;
+                height: 100%;
+              }
+              .parts{
+                margin-top: 33px;
+              }
+              #colours {
+                margin-top: 54px;
+              }
+              .slidernavitem img {
+                width: 100%;
+                height: 125px;
+              }
+              .commonhead h2 {
+                font-size: 30px;}
+                .commonhead p {
+                  font-size: 15px;}
+                  .testimonial_text h2 {
+                    font-size: 30px;}
+                    #testimonials {
+                      margin-top: 97px;
+                      padding-left: 52px;
+                      padding-right: 52px;
+                      padding-bottom: 98px;
+                    }
+                      .myslider_item{
+width:100%;
+height:100%;
+padding-top: 39px;
+  padding-left: 13px;
+  padding-bottom: 39px;
+  padding-right: 12px;
+                      }
+                      .react_para {
+                        width: 100%;}
+                        .react_para p {
+                          font-size: 14px;}
+                          .prr {
+                            
+                            left: -24px;
+    top: 25px;
+    margin-left: -1px;
+                          }
+                          .nrr {
+                            left: -24px;
+    top: 319px;
+    
+    margin-left: -1px;
+                          }
+                          .review_maker .person_na_desi h4 {
+                            font-size: 13px}
+                         
+                              .review_maker .person_na_desi p {
+                                font-size: 12px;
+                              }
+                              .subscribe_text h2 {
+                                font-size: 30px;}
+                                .subscribe_text p {
+                                  font-size: 15px;}
+                                  .form input {
+                                    width: 100%;}
+                                    input::placeholder{
+                                      font-size:15px;
+                                    }
+                                    .form button {
+                                      width: 100%;
+                                      font-size: 15px;
+                                    }
+                                    .footer_image img{
+                                      width: 100%;
+  position: static;
+  
+
+                    
+}
+.footer_list {
+  margin-top: -121px;
+  margin-left: -6px;
+  flex-direction: column;
+}
+.footer_row{
+  flex-direction: column;
+  gap:167px;
+}  
+footer p {
+  margin-top: 117px;}  
+  #subscribe {
+    margin-top: 40px;
+  }                       
+}
+

@@ -39,10 +39,85 @@ $('.slider-nav').slick({
   arrows:false
 });
 		
+
+$('.multiple-items1').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows:false,
+  autoplay:true,
+  autoplaySpeed:1000,
+  responsive: [
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
 $('.my_slider').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 3,
   prevArrow:'<i class="fa-solid arrows prr fa-arrow-left"></i>',
-    nextArrow:'<i class="fa-solid arrows nrr fa-arrow-right"></i>'
+    nextArrow:'<i class="fa-solid arrows nrr fa-arrow-right"></i>',
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+});
+AOS.init({
+  once: true,
+  disable: () => window.innerWidth < 768
 });
