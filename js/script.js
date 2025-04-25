@@ -117,7 +117,7 @@ $('.my_slider').slick({
       // instead of a settings object
     ]
 });
-AOS.init({
-  once: true,
-  disable: () => window.innerWidth < 992
-});
+// AOS.init({
+//   once: true,
+//   disable: () => window.innerWidth < 992
+// });
