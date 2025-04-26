@@ -1,9 +1,7 @@
 /* extra small device */
   @media (max-width: 575.98px) { 
     /* nav bar part start */
-    body{
-      overflow-x:hidden;
-    }
+   
     .main_menu .logo img {
         width: 53px;
       }
@@ -182,6 +180,7 @@ align-items:center;
           .shopping_rack_text h2 {
             font-size: 30px;
             margin-top: 47px;
+            width:229px;
           }
           .shopping_rack_list p {
             font-size: 15px;}
