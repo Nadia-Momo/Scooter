@@ -11,8 +11,8 @@ var typed =new Typed(".auto-type",{
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows:false,
-    autoplay:false
-    // autoplaySpeed:1000
+    autoplay:true,
+    autoplaySpeed:1000
   });
 
   AOS.init();
