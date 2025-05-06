@@ -1,74 +1,29 @@
 # Scooter
 
-A simple 2D endless runner game built with Pygame.
+A simple and modern web project for scooter-related services or information.
 
-## Description
+## 🚀 Live Repository
 
-Scooter is a basic endless runner where the player controls a scooter, navigating obstacles to achieve the highest possible score. The game features:
+You can view the project on GitHub:  
+🔗 [https://github.com/Nadia-Momo/Scooter](https://github.com/Nadia-Momo/Scooter)
 
-* A scrolling background to simulate movement.
-* Randomly generated obstacles that the player must avoid.
-* Score tracking to record the player's progress.
-* Basic game over condition upon collision.
+## 📂 Project Overview
 
-This project serves as a beginner-friendly example of game development using the Pygame library.
+This repository contains the source code for the "Scooter" project. It aims to provide a user-friendly and responsive interface for showcasing or managing scooters, whether for rental, sales, or educational purposes.
 
-## Installation
+## 📄 Features
 
-To run this game, you need to have Python and the Pygame library installed on your system.
+- Clean and responsive design  
+- Easy-to-navigate layout  
+- Organized folder structure
 
-1.  **Install Python:** If you don't have Python installed, you can download it from the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+## 🛠️ Getting Started
 
-2.  **Install Pygame:** Open your terminal or command prompt and run the following command:
-    ```bash
-    pip install pygame
-    ```
+To clone this repository:
 
-## Usage
+```bash
+git clone https://github.com/Nadia-Momo/Scooter.git
 
-1.  **Clone the repository (if you haven't already):**
-    ```bash
-    git clone [https://github.com/Nadia-Momo/Scooter.git](https://github.com/Nadia-Momo/Scooter.git)
-    cd Scooter
-    ```
+Would you like to include sections for features, technologies used, screenshots, or future improvements?
 
-2.  **Run the game:**
-    ```bash
-    python main.py
-    ```
 
-    This command will execute the `main.py` file and start the game.
-
-## How to Play
-
-* The scooter moves automatically.
-* Press the **Spacebar** to make the scooter jump.
-* Avoid colliding with the obstacles.
-* The score increases as you continue to play.
-
-## Contributing
-
-Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, feel free to:
-
-1.  Fork the repository.
-2.  Create a new branch for your changes.
-3.  Make your modifications.
-4.  Submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for more details.
-
-## Acknowledgments
-
-* This project utilizes the [Pygame](https://www.pygame.org/) library.
-
----
-
-Feel free to adapt and expand upon this README file with more specific details about your code, such as:
-
-* Specific controls or game mechanics.
-* Details about the assets used (images, sounds).
-* Any known issues or future plans.
-
-Let me know if you'd like me to make any adjustments or add more information!
