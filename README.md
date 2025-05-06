@@ -25,5 +25,32 @@ To clone this repository:
 git clone https://github.com/Nadia-Momo/Scooter.git
 
 Would you like to include sections for features, technologies used, screenshots, or future improvements?
+# 🛴 Scooter
+
+A modern and responsive web project designed for scooter rental, showcase, or information services. This project emphasizes clean UI/UX design, efficient layout, and accessibility across devices.
+
+## 🌐 Live Demo
+
+🚀 [View the Live Project](https://nadia-momo.github.io/Scooter/)  
+👩‍💻 [View the Repository on GitHub](https://github.com/Nadia-Momo/Scooter)
+
+---
+
+## 📸 Preview
+
+![Scooter Preview](https://nadia-momo.github.io/Scooter/preview.png) <!-- Optional: You can add an actual screenshot if available -->
+
+---
+
+## 📁 Project Structure
+
+```bash
+Scooter/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   └── ... (all image assets)
+└── README.md
 
 
